@@ -2,7 +2,7 @@
 $server = "localhost";
 $user = "root";
 $pass  ="";
-$db="captureit";
+$db="capture_it";
 $con = mysqli_connect($server,$user,$pass,$db);
 if(!$con)
 {
